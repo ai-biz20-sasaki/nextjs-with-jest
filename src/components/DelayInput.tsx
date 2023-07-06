@@ -47,7 +47,7 @@ export const DelayInput = (props: DelayButtonProps) => {
     <div>
       {/* data-testidはテスト中だけ使用するID */ }
       <input data-testid ="input-text" value ={inputValue} onChange ={handleChange} />
-      < span data-testid ="display-text">{text}</ span >
+      <span data-testid ="display-text">{text}</span>
     </div>
   )
 }

@@ -8,7 +8,7 @@ describe('DelayInput', () => {
   let handleChange: jest.Mock
   
   beforeEach(() => { 
-    // モック関数を作成 する
+    // モック関数を作成する
     handleChange = jest.fn() 
     
     // モック関数をDelayButtonに渡して描画
